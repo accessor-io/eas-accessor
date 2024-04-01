@@ -1,4 +1,3 @@
-Here's a README template specifically tailored for the `eas-accessor` project:
 
 ---
 
