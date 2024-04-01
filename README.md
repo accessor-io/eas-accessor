@@ -1,8 +1,7 @@
 
 ---
 
-# eas-accessor
-
+# eas-accessor (wip)
 `eas-accessor` is a library for interacting with the Ethereum Attestation Service (EAS). It provides functionality for accessing and managing attestations  to associate Ethereum Name Service Domain Names and Addresses to a main attesting account on the Ethereum blockchain.
 
 ## Installation
