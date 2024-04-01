@@ -60,5 +60,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 `eas-accessor` is developed and maintained by accessor.eth.
 
 ---
-
-You can further customize this template with additional sections or information specific to your project.
