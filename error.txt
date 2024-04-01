@@ -1,0 +1,107 @@
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/dot/eas-accessor/src/App.js: Expecting Unicode escape sequence \uXXXX. (1:27)
+
+> 1 | import React from 'react';\nimport './App.css';\nimport AddressForm from './AddressForm';\n\nfunction App() {\n  return (\n    <div className="App">\n      <header className="App-header">\n        <AddressForm />\n      </header>\n    </div>\n  );\n}\n\nexport default App;
+    |                            ^
+  2 |
+    at constructor (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:353:19)
+    at FlowParserMixin.raise (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:3277:19)
+    at FlowParserMixin.readWord1 (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:3237:16)
+    at FlowParserMixin.readWord (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:3257:23)
+    at FlowParserMixin.getTokenFromCode (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:2976:14)
+    at FlowParserMixin.getTokenFromCode (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:6854:11)
+    at FlowParserMixin.getTokenFromCode (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:5334:13)
+    at FlowParserMixin.nextToken (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:2460:10)
+    at FlowParserMixin.next (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:2373:10)
+    at FlowParserMixin.eat (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:2377:12)
+    at FlowParserMixin.isLineTerminator (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:3594:17)
+    at FlowParserMixin.semicolon (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:3597:25)
+    at FlowParserMixin.parseImportSourceAndAttributes (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13705:10)
+    at FlowParserMixin.parseImportSpecifiersAndAfter (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13696:17)
+    at FlowParserMixin.parseImport (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13687:17)
+    at FlowParserMixin.parseStatementContent (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12347:27)
+    at FlowParserMixin.parseStatementLike (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12239:17)
+    at FlowParserMixin.parseStatementLike (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:5055:24)
+    at FlowParserMixin.parseModuleItem (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12216:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12796:36)
+    at FlowParserMixin.parseBlockBody (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12789:10)
+    at FlowParserMixin.parseProgram (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12116:10)
+    at FlowParserMixin.parseTopLevel (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12106:25)
+    at FlowParserMixin.parseTopLevel (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:5822:28)
+    at FlowParserMixin.parse (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13905:10)
+    at parse (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13947:38)
+    at parser (/home/dot/eas-accessor/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/dot/eas-accessor/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/dot/eas-accessor/node_modules/@babel/core/lib/transformation/index.js:21:50)
+    at run.next (<anonymous>)
+    at transform (/home/dot/eas-accessor/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/dot/eas-accessor/node_modules/gensync/index.js:261:32)
+    at /home/dot/eas-accessor/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/dot/eas-accessor/node_modules/gensync/index.js:223:11)
+./src/App.js@http://localhost:3000/static/js/bundle.js:10:7
+options.factory@http://localhost:3000/static/js/bundle.js:41386:31
+__webpack_require__@http://localhost:3000/static/js/bundle.js:40815:32
+fn@http://localhost:3000/static/js/bundle.js:41044:21
+./src/index.js@http://localhost:3000/static/js/bundle.js:26:81
+options.factory@http://localhost:3000/static/js/bundle.js:41386:31
+__webpack_require__@http://localhost:3000/static/js/bundle.js:40815:32
+@http://localhost:3000/static/js/bundle.js:42032:56
+@http://localhost:3000/static/js/bundle.js:42034:12
+ERROR in ./src/App.js
+Module build failed (from ./node_modules/babel-loader/lib/index.js):
+SyntaxError: /home/dot/eas-accessor/src/App.js: Expecting Unicode escape sequence \uXXXX. (1:27)
+
+> 1 | import React from 'react';\nimport './App.css';\nimport AddressForm from './AddressForm';\n\nfunction App() {\n  return (\n    <div className="App">\n      <header className="App-header">\n        <AddressForm />\n      </header>\n    </div>\n  );\n}\n\nexport default App;
+    |                            ^
+  2 |
+    at constructor (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:353:19)
+    at FlowParserMixin.raise (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:3277:19)
+    at FlowParserMixin.readWord1 (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:3237:16)
+    at FlowParserMixin.readWord (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:3257:23)
+    at FlowParserMixin.getTokenFromCode (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:2976:14)
+    at FlowParserMixin.getTokenFromCode (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:6854:11)
+    at FlowParserMixin.getTokenFromCode (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:5334:13)
+    at FlowParserMixin.nextToken (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:2460:10)
+    at FlowParserMixin.next (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:2373:10)
+    at FlowParserMixin.eat (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:2377:12)
+    at FlowParserMixin.isLineTerminator (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:3594:17)
+    at FlowParserMixin.semicolon (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:3597:25)
+    at FlowParserMixin.parseImportSourceAndAttributes (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13705:10)
+    at FlowParserMixin.parseImportSpecifiersAndAfter (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13696:17)
+    at FlowParserMixin.parseImport (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13687:17)
+    at FlowParserMixin.parseStatementContent (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12347:27)
+    at FlowParserMixin.parseStatementLike (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12239:17)
+    at FlowParserMixin.parseStatementLike (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:5055:24)
+    at FlowParserMixin.parseModuleItem (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12216:17)
+    at FlowParserMixin.parseBlockOrModuleBlockBody (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12796:36)
+    at FlowParserMixin.parseBlockBody (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12789:10)
+    at FlowParserMixin.parseProgram (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12116:10)
+    at FlowParserMixin.parseTopLevel (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12106:25)
+    at FlowParserMixin.parseTopLevel (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:5822:28)
+    at FlowParserMixin.parse (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13905:10)
+    at parse (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13947:38)
+    at parser (/home/dot/eas-accessor/node_modules/@babel/core/lib/parser/index.js:41:34)
+    at parser.next (<anonymous>)
+    at normalizeFile (/home/dot/eas-accessor/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)
+    at normalizeFile.next (<anonymous>)
+    at run (/home/dot/eas-accessor/node_modules/@babel/core/lib/transformation/index.js:21:50)
+    at run.next (<anonymous>)
+    at transform (/home/dot/eas-accessor/node_modules/@babel/core/lib/transform.js:22:33)
+    at transform.next (<anonymous>)
+    at step (/home/dot/eas-accessor/node_modules/gensync/index.js:261:32)
+    at /home/dot/eas-accessor/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/dot/eas-accessor/node_modules/gensync/index.js:223:11)
+    at /home/dot/eas-accessor/node_modules/gensync/index.js:189:28
+    at /home/dot/eas-accessor/node_modules/@babel/core/lib/gensync-utils/async.js:67:7
+    at /home/dot/eas-accessor/node_modules/gensync/index.js:113:33
+    at step (/home/dot/eas-accessor/node_modules/gensync/index.js:287:14)
+    at /home/dot/eas-accessor/node_modules/gensync/index.js:273:13
+    at async.call.result.err.err (/home/dot/eas-accessor/node_modules/gensync/index.js:223:11)
+ERROR
+[eslint] 
+src/App.js
+  Line 1:27:  Parsing error: Expecting Unicode escape sequence \uXXXX. (1:27)
+

@@ -1,0 +1,56 @@
+                                                                                                  
+js:12216:17)                                                                                      
+at FlowParserMixin.parseBlockOrModuleBlockBody                                                    
+(/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12796:36)                         
+at FlowParserMixin.parseBlockBody                                                                 
+(/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12789:10)                         
+at FlowParserMixin.parseProgram                                                                   
+(/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12116:10)                         
+at FlowParserMixin.parseTopLevel                                                                  
+(/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12106:25)                         
+at FlowParserMixin.parseTopLevel                                                                  
+(/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:5822:28)                          
+at FlowParserMixin.parse                                                                          
+(/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13905:10)                         
+at parse (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13947:38)                
+                                                                                                  
+npm start█                                                                                        
+                                                                                                  
+                                                                                                  
+Output truncated. Showing the last 2000 characters.                                               
+                                                                                                  
+.parseBlockOrModuleBlockBody                                                                      
+(/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12796:36)                         
+at FlowParserMixin.parseBlockBody                                                                 
+(/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12789:10)                         
+at FlowParserMixin.parseProgram                                                                   
+(/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12116:10)                         
+at FlowParserMixin.parseTopLevel                                                                  
+(/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:12106:25)                         
+at FlowParserMixin.parseTopLevel                                                                  
+(/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:5822:28)                          
+at FlowParserMixin.parse                                                                          
+(/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13905:10)                         
+at parse (/home/dot/eas-accessor/node_modules/@babel/parser/lib/index.js:13947:38)                
+at parser (/home/dot/eas-accessor/node_modules/@babel/core/lib/parser/index.js:41:34)             
+at parser.next (<anonymous>)                                                                      
+at normalizeFile                                                                                  
+(/home/dot/eas-accessor/node_modules/@babel/core/lib/transformation/normalize-file.js:64:37)      
+at normalizeFile.next (<anonymous>)                                                               
+at run (/home/dot/eas-accessor/node_modules/@babel/core/lib/transformation/index.js:21:50)        
+at run.next (<anonymous>)                                                                         
+at transform (/home/dot/eas-accessor/node_modules/@babel/core/lib/transform.js:22:33)             
+at transform.next (<anonymous>)                                                                   
+at step (/home/dot/eas-accessor/node_modules/gensync/index.js:261:32)                             
+at /home/dot/eas-accessor/node_modules/gensync/index.js:273:13                                    
+at async.call.result.err.err (/home/dot/eas-accessor/node_modules/gensync/index.js:223:11)        
+at /home/dot/eas-accessor/node_modules/gensync/index.js:189:28                                    
+at /home/dot/eas-accessor/node_modules/@babel/core/lib/gensync-utils/async.js:67:7                
+at /home/dot/eas-accessor/node_modules/gensync/index.js:113:33                                    
+at step (/home/dot/eas-accessor/node_modules/gensync/index.js:287:14)                             
+at /home/dot/eas-accessor/node_modules/gensync/index.js:273:13                                    
+at async.call.result.err.err (/home/dot/eas-accessor/node_modules/gensync/index.js:223:11)        
+ERROR in                                                                                          
+src/App.js                                                                                        
+Line 1:27:  Parsing error: Expecting Unicode escape sequence \uXXXX. (1:27)                       
+webpack compiled with 2 errors    
